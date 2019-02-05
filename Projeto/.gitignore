@@ -1,0 +1,8 @@
+/target
+.settings/
+.idea/
+.project
+.classpath
+*.log
+*.csv
+*.jar

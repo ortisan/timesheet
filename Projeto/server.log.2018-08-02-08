@@ -1,0 +1,313 @@
+2018-08-02 08:12:07,942 INFO  [br.gov.sp.prodesp.filter.CensoDAFilter] Censo do Sistema DA registrado para: 8876591|32070|16001|inicioPesquisaMovimentosContaCorrente|br.gov.sp.prodesp.action.movimentacao.contacorrente.InicioPesquisaMovimentosContaCorrenteAction|2018-08-02 08:12:07.753
+2018-08-02 08:18:47,291 INFO  [STDOUT] Tempo inicio.do: 1
+2018-08-02 08:18:53,486 INFO  [br.gov.sp.prodesp.filter.CensoDAFilter] Censo do Sistema DA registrado para: 8876592|32025|16001|selecionaOrgaoTipoDebito|br.gov.sp.prodesp.action.movimentacao.debito.inscricao.SelecionaOrgaoTipoDebitoAction|2018-08-02 08:18:53.091
+2018-08-02 08:20:16,829 INFO  [br.gov.sp.prodesp.filter.CensoDAFilter] Censo do Sistema DA registrado para: 8876593|32025|16001|selecionaOrgaoTipoDebito|br.gov.sp.prodesp.action.movimentacao.debito.inscricao.SelecionaOrgaoTipoDebitoAction|2018-08-02 08:20:16.814
+2018-08-02 08:20:55,341 ERROR [STDERR] javax.servlet.ServletException: Somente um entre CPF e Identidade deve ser informado para a pesquisa.
+2018-08-02 08:20:55,341 ERROR [STDERR] 	at br.gov.sp.prodesp.action.movimentacao.devedor.PesquisaPessoaFisicaRDAction.beforeAction(PesquisaPessoaFisicaRDAction.java:153)
+2018-08-02 08:20:55,341 ERROR [STDERR] 	at com.borland.framework.web.actions.SearchAction.execute(SearchAction.java:125)
+2018-08-02 08:20:55,341 ERROR [STDERR] 	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:421)
+2018-08-02 08:20:55,341 ERROR [STDERR] 	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:226)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1164)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:415)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:710)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at br.gov.sp.prodesp.filter.CensoDAFilter.doFilter(CensoDAFilter.java:95)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+2018-08-02 08:20:55,342 ERROR [STDERR] 	at com.borland.framework.web.filter.TokenFilter.doFilter(TokenFilter.java:82)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at br.gov.sp.prodesp.filter.VerificaDisponibilidadeSistemaDAFilter.doFilter(VerificaDisponibilidadeSistemaDAFilter.java:31)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at br.gov.sp.prodesp.filter.SGUDAFilter.doFilter(SGUDAFilter.java:84)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+2018-08-02 08:20:55,343 ERROR [STDERR] 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:182)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:84)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.jboss.web.tomcat.service.jca.CachedConnectionValve.invoke(CachedConnectionValve.java:157)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:262)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:446)
+2018-08-02 08:20:55,344 ERROR [STDERR] 	at java.lang.Thread.run(Thread.java:662)
+2018-08-02 08:21:16,428 INFO  [STDOUT] Método 'setContribuinteICMSSP' da classeSource de origem(br.gov.sp.prodesp.rd.vo.DebitoDevedorVO) não possui correspondente na classeSource de destino br.gov.sp.prodesp.rd.vo.DebitoDevedorVO.
+2018-08-02 08:21:16,428 INFO  [STDOUT] Método 'setTrim' da classeSource de origem(br.gov.sp.prodesp.rd.vo.DebitoDevedorVO) não possui correspondente na classeSource de destino br.gov.sp.prodesp.rd.vo.DebitoDevedorVO.
+2018-08-02 08:23:12,266 INFO  [STDOUT] Método 'setUsingIndiceAsValor' da classeSource de origem(br.gov.sp.prodesp.rd.vo.DebitoItemValorVO) não possui correspondente na classeSource de destino br.gov.sp.prodesp.rd.vo.DebitoItemValorVO.
+2018-08-02 08:23:12,266 INFO  [STDOUT] Método 'setTrim' da classeSource de origem(br.gov.sp.prodesp.rd.vo.DebitoItemValorVO) não possui correspondente na classeSource de destino br.gov.sp.prodesp.rd.vo.DebitoItemValorVO.
+2018-08-02 08:23:18,241 INFO  [br.gov.sp.prodesp.rd.util.Prescricao] Fazendo requisição para - http://10.199.113.136/dividaativa/ws/debito/prescricao?wsdl
+2018-08-02 08:23:22,085 INFO  [br.gov.sp.prodesp.rd.util.Prescricao] Operação realizada com sucesso!
+2018-08-02 08:25:25,877 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,877 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,877 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,877 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,877 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,877 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,877 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,878 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,879 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,880 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,880 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,880 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:25,880 WARN  [org.jboss.ws.metadata.wsdl.WSDLDefinitions] Multiple WSDL bindings referrence the same interface: {https://www.fazenda.sp.gov.br/cadin_estadual/webservices/wsCADINModf.asmx}wsCADINModfSoap
+2018-08-02 08:25:26,413 WARN  [org.jboss.remoting.transport.http.HTTPClientInvoker] Unable to create SSL Socket Factory for client invoker: Error initializing socket factory SSL context: Can not find truststore url.
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494603
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494602
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494605
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494601
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494599
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494606
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494607
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494600
+2018-08-02 08:27:54,194 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] Atualizando Parcela ID -> 218494604
+2018-08-02 08:27:54,333 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494603
+2018-08-02 08:28:09,279 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494602
+2018-08-02 08:28:09,919 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494605
+2018-08-02 08:28:10,278 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494601
+2018-08-02 08:28:10,653 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494599
+2018-08-02 08:28:11,038 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494606
+2018-08-02 08:28:11,472 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494607
+2018-08-02 08:28:11,844 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494600
+2018-08-02 08:28:12,470 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.CestaCreditoServiceBean] 218494604
+2018-08-02 08:45:05,183 INFO  [br.gov.sp.prodesp.filter.CensoDAFilter] Censo do Sistema DA registrado para: 8876594|36101|16001|rodarBachs|br.gov.sp.prodesp.action.movimentacao.batch.RodarBatchAction|2018-08-02 08:45:05.085
+2018-08-02 08:45:26,171 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Instanciando classe utilitária.
+2018-08-02 08:45:26,228 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Carregando informações de configuração para rotina.
+2018-08-02 08:45:26,319 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando método para consumir arquivos do servidor FTP.
+2018-08-02 08:45:26,319 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: SPG005D_CRICMDA\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,319 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,320 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,320 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,322 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,322 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,322 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,322 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,323 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,323 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 0 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 0 arquivos.
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: SPG015D_CREDIPVA\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,327 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,328 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,328 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,329 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,329 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,329 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,330 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,332 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 0 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,332 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 0 arquivos.
+2018-08-02 08:45:26,333 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,333 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,333 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,333 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: SPG055D_CRICMS\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,333 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,333 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,333 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,334 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,334 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,334 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,334 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,335 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,335 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,338 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 0 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,338 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 0 arquivos.
+2018-08-02 08:45:26,338 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,338 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,338 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,338 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: SPG225D_ICMCDREC\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,338 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,339 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,339 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,340 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,340 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,340 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,340 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,340 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,341 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,344 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 0 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,344 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 0 arquivos.
+2018-08-02 08:45:26,344 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,344 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,344 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,344 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: SPG235D_ICMCDREC\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,344 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,345 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,345 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,345 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,345 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,346 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,346 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,346 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,347 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,350 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 0 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,350 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 0 arquivos.
+2018-08-02 08:45:26,350 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,350 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,350 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,381 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: SPG075D_CREDPEP\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,382 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,382 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,382 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,383 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,383 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,384 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,384 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,384 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,384 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,388 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 0 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,388 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 0 arquivos.
+2018-08-02 08:45:26,388 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,388 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,388 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,388 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: SPG900D_CRDARE\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,389 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,389 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,389 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,390 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,390 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,390 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,390 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,391 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,391 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,395 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 1 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,402 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 1 arquivos.
+2018-08-02 08:45:26,402 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,417 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,417 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA ../backupEntrada
+2018-08-02 08:45:26,450 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,455 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando ao FTP informações de arquivos com o padrão.: credpepretrec_\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,455 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Requisitando uma nova conexão ao servidor .:10.199.113.136
+2018-08-02 08:45:26,455 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:26,455 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:26,456 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:26,456 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:26,457 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor FTP a mudanca para o path.: saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,457 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,457 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando ao servidor busca por arquivos no padrão requisitado.
+2018-08-02 08:45:26,457 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] Consultando lista de arquivos no diretorio /saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:26,460 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] 0 Arquivo(s) Encontrado(s).
+2018-08-02 08:45:26,460 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Foram recuperados 0 arquivos.
+2018-08-02 08:45:26,460 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando escrita dos arquivos no path de entrada de cestas de crédito.
+2018-08-02 08:45:26,460 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Os arquivos serão copiados para .:../backupEntrada como backup de segurança.
+2018-08-02 08:45:26,461 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Desconectando do servidor FTP.
+2018-08-02 08:45:26,461 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando leitura e processamento dos arquivos recuperados no ftp.
+2018-08-02 08:45:26,461 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão SPG005D_CRICMDA\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,461 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 0 arquivo(s) de cesta de crédito.
+2018-08-02 08:45:26,461 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão SPG015D_CREDIPVA\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,462 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 0 arquivo(s) de cesta de crédito.
+2018-08-02 08:45:26,462 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão SPG055D_CRICMS\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,462 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 0 arquivo(s) de cesta de crédito.
+2018-08-02 08:45:26,462 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão SPG225D_ICMCDREC\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,462 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 0 arquivo(s) de cesta de crédito.
+2018-08-02 08:45:26,462 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão SPG235D_ICMCDREC\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,462 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 0 arquivo(s) de cesta de crédito.
+2018-08-02 08:45:26,467 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão SPG075D_CREDPEP\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,468 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 0 arquivo(s) de cesta de crédito.
+2018-08-02 08:45:26,468 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão SPG900D_CRDARE\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:26,468 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 1 arquivo(s) de cesta de crédito.
+2018-08-02 08:45:26,468 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando iteração nos arquivos encontrados referentes ao tipo de cesta [CESTA_CREDITOS_DARE]
+2018-08-02 08:45:26,468 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Inciando upload do arquivo SPG900D_CRDARE20180802084320100.txt para base de dados.
+2018-08-02 08:45:26,468 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: O arquivo SPG900D_CRDARE20180802084320100.txt sera exportado para a base de dados.
+2018-08-02 08:45:26,468 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Invocando o serviço "ImportarCestaCreditoService".
+2018-08-02 08:45:27,916 INFO  [br.gov.sp.prodesp.batch.bo.ImportarCestaCreditoBO] ========= GRAVAÇÃO DO ARQUIVO FINALIZADO COM SUCESSO =========
+2018-08-02 08:45:27,919 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando servidor FTP apagar arquivo: SPG900D_CRDARE20180802084320100.txt
+2018-08-02 08:45:27,919 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Conectando ao servidor 10.199.113.136
+2018-08-02 08:45:27,919 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:27,919 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:27,921 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:27,921 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:27,922 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando mudança de path para "saftToDa/CestaAutomatizada/entrada".
+2018-08-02 08:45:27,923 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/entrada
+2018-08-02 08:45:27,923 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Solicitando apagar arquivo SPG900D_CRDARE20180802084320100.txt
+2018-08-02 08:45:27,923 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] DELETANDO ARQUIVO DE CARGA DO DIRETORIO DE ENTRADA...
+2018-08-02 08:45:27,924 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Inciando processo de cesta de crédito para arquivo: SPG900D_CRDARE20180802084320100.txt
+2018-08-02 08:45:27,924 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Será incializado a cesta de crédito DARE.
+2018-08-02 08:45:27,971 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] CARREGANDO VARIAVEIS DE INICIALIZACAO.....
+2018-08-02 08:45:27,983 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] ENDERECO SERVIDOR FTP: 10.199.113.136
+2018-08-02 08:45:27,983 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] USUARIO FTP: sdpeda
+2018-08-02 08:45:27,983 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] CARGA DE ARQUIVO VIA FTP? false
+2018-08-02 08:45:27,984 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] INSTANCIANDO NOVO CLIENTE FTP...
+2018-08-02 08:45:27,984 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] INSTANCIANDO BROKER PROXY PARA O PROCESSO...
+2018-08-02 08:45:27,984 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] INICIANDO BUSCA DE ARQUIVO DE CARGA PARA CESTA DE CREDITO DIRETAMENTE NO DISCO DO SERVIDOR
+2018-08-02 08:45:28,007 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] ARQUIVO ENCONTRADO PARA PROCESSAMENTO: SPG900D_CRDARE20180802084320100.txt
+2018-08-02 08:45:28,007 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] RECUPERANDO ARQUIVO DE LAYOUT (XML) DA CESTA DE CREDITOS
+2018-08-02 08:45:28,038 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] RECUPERANDO ARQUIVO DE LAYOUT (XML) DA CESTA DE CREDITOS
+2018-08-02 08:45:28,121 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] INICIANDO PARSE DO ARQUIVO DE CARGA
+2018-08-02 08:45:28,121 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] RECUPERANDO ARQUIVO DE LAYOUT (XML) DA CESTA DE CREDITOS
+2018-08-02 08:45:28,132 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] INICIANDO VERIFICACAO DE MOVIMENTO DAS LINHAS
+2018-08-02 08:45:28,133 INFO  [br.gov.sp.prodesp.batch.exportacao.ExportacaoArquivo] Gravando historico do processamento batch usando Proxy.
+2018-08-02 08:45:29,599 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] PARSE REALIZADO COM SUCESSO
+2018-08-02 08:45:30,164 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] IDENTIFICANDO OS CRÉDITOS!
+2018-08-02 08:45:30,164 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] PROCESSANDO 2º LINHA
+2018-08-02 08:45:30,164 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] IDENTIFICANDO CÓDIGO RECEITA DO CRÉDITO!
+2018-08-02 08:45:30,188 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] CÓDIGO RECEITA : 661 GARE RELATIVO AO PAGAMENTO DE OUTROS DÉBITOS
+2018-08-02 08:45:30,188 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] CÓDIGO RECEITA DO CRÉDITO IDENTIFICADO!
+2018-08-02 08:45:30,189 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] VALIDANDO A GARE SEFAZ!
+2018-08-02 08:45:30,203 ERROR [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] CODIGO ERRO_DATA_ARRECADACAO_MAIOR_DATA_PROCESSAMENTO- VERIFIQUE DIGITO - COD_ERRO 807
+2018-08-02 08:45:30,983 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] GERANDO O ARQUIVO DE RETORNO E BACKUP!
+2018-08-02 08:45:30,990 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] ENVIANDO ARQUIVO DE RETORNO AO DIRETÓRIO DE RETORNO...
+2018-08-02 08:45:31,105 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] EFETUANDO BACKUP DE ARQUIVO DE CARGA NO PRÓPRIO DISCO DO SERVIDOR...
+2018-08-02 08:45:31,142 INFO  [br.gov.sp.prodesp.batch.runners.ImportarCestaCreditosBatchcreditoDare] ============ PROCESSO BATCH FINALIZADO COM SUCESSO ============
+2018-08-02 08:45:31,142 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Inciando processo de enviar arquivo de retorno gerado pela cesta para FTP.SPG900D_CRDARE20180802084320100.txt
+2018-08-02 08:45:31,142 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos retorno padrão SPG910A_CRDARE\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:31,142 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:31,142 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:31,144 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:31,144 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:31,152 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] MUDANDO DIRETORIO FTP PARA saftToDa/CestaAutomatizada/retorno
+2018-08-02 08:45:31,168 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] TENTANDO CONECTAR CLIENTE AO SERVIDOR FTP...
+2018-08-02 08:45:31,168 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] SERVIDOR: 10.199.113.136
+2018-08-02 08:45:31,170 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] EFETUANDO LOGIN...
+2018-08-02 08:45:31,170 INFO  [br.gov.sp.prodesp.sda.util.util.FTPSender] USUARIO: sdpeda
+2018-08-02 08:45:31,174 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Iniciando busca por arquivos de padrão credpepretrec_\d\d\d\d\d\d\d\d\d\d\d\d.TXT
+2018-08-02 08:45:31,175 INFO  [br.gov.sp.prodesp.batch.session.cesta.credito.ImportaCestaCreditoAutomatizadorBean] INFO: Fora(m) encontrado(s) 0 arquivo(s) de cesta de crédito.
+2018-08-02 08:50:57,923 INFO  [STDOUT] Tempo inicio.do: 1
+2018-08-02 08:51:13,492 INFO  [br.gov.sp.prodesp.filter.CensoDAFilter] Censo do Sistema DA registrado para: 8876595|36101|16001|rodarBachs|br.gov.sp.prodesp.action.movimentacao.batch.RodarBatchAction|2018-08-02 08:51:13.37
+2018-08-02 08:55:05,019 INFO  [STDOUT] Tempo inicio.do: 1
+2018-08-02 08:55:10,780 INFO  [br.gov.sp.prodesp.filter.CensoDAFilter] Censo do Sistema DA registrado para: 8876596|36101|16001|rodarBachs|br.gov.sp.prodesp.action.movimentacao.batch.RodarBatchAction|2018-08-02 08:55:10.721
